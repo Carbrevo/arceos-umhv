@@ -7,8 +7,11 @@ members = ["arceos-vmm"]
 lto = true
 
 [workspace.dependencies]
-axstd = { git = "https://github.com/arceos-hypervisor/arceos.git", branch = "vmm" }
+#axstd = { git = "https://github.com/arceos-hypervisor/arceos.git", branch = "vmm" }
+#axstd = { git = "https://github.com/Carbrevo/arceos.git", branch = "vmm" }
+axstd = { path = "../arceos/ulib/axstd" }
 
-axvm = { git = "https://github.com/arceos-hypervisor/axvm.git" }
+#axvm = { git = "https://github.com/arceos-hypervisor/axvm.git" }
 axvcpu = { git = "https://github.com/arceos-hypervisor/axvcpu.git" }
 axaddrspace = { git = "https://github.com/arceos-hypervisor/axaddrspace.git" }
+axvm = { path = "../axvm" }
