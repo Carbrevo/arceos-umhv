@@ -12,6 +12,8 @@ lto = true
 axstd = { path = "../arceos/ulib/axstd" }
 
 #axvm = { git = "https://github.com/arceos-hypervisor/axvm.git" }
-axvcpu = { git = "https://github.com/arceos-hypervisor/axvcpu.git" }
+#axvcpu = { git = "https://github.com/arceos-hypervisor/axvcpu.git" }
 axaddrspace = { git = "https://github.com/arceos-hypervisor/axaddrspace.git" }
 axvm = { path = "../axvm" }
+axvcpu = { path = "../axvcpu" }
+x86_vcpu = { path = "../x86_vcpu" }
